@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IGC</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+  </head>
+
+  <body>
+    <%= render partial: "layouts/components/header" %>
+    <div id="page-content"><%= yield %></div>
+    <%= render partial: "layouts/components/footer" %>
+  </body>
+</html>

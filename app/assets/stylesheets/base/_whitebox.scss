@@ -1,0 +1,29 @@
+.white-box {
+  display: block;
+  text-align: center;
+  box-shadow: 0 1px 10px 0 rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+
+  .icon-holder {
+    padding: 40px 0;
+
+    img {
+      height: 80px;
+    }
+  }
+
+  .text-holder {
+    padding: 20px 40px;
+    min-height: 200px;
+
+    h3 {
+      font-size: 18px;
+      margin: 0 0 15px;
+    }
+
+    p {
+      color: #868686;
+      font-size: 14px;
+    }
+  }
+}

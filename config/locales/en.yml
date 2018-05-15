@@ -31,3 +31,17 @@
 
 en:
   tagline_html: "打造亚太区无现金社会<br/>世界新方向，投资大趋势"
+
+  about:
+    title: "打造无现金生态圈的专属数字加密货币"
+    description: "方便结算，无痛消费 与以太坊（Ethereum）挂钩，一起增长，一起增值"
+    feature_1:
+      title: "建立交易平台，扩大用户群体"
+      description: "Trade IG Coin between one another hassle-free via our own exchange platform.
+Develop smart contracts and create wealth that can be shared"
+    feature_2:
+      title: "开放智能合约，创造共享财富"
+      description: "Smart contract ensures trusted transactions and agreements; hence all actions are transparent and irreversible."
+    feature_3:
+      title: "打造亚太区无现金社会生态圈"
+      description: "One digital wallet is all you need to invest, trade and shop for anything in our marketplace."

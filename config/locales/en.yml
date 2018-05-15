@@ -32,6 +32,10 @@
 en:
   tagline_html: "打造亚太区无现金社会<br/>世界新方向，投资大趋势"
 
+  forms:
+    email: "电邮地址"
+    subscribe: "订阅"
+
   about:
     title: "打造无现金生态圈的专属数字加密货币"
     description: "方便结算，无痛消费 与以太坊（Ethereum）挂钩，一起增长，一起增值"

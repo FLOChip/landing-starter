@@ -1,0 +1,68 @@
+.overlayed-box {
+  display: block;
+  color: white;
+  text-align: left;
+  position: relative;
+  background-size: cover;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 79%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 79%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 79%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+
+    .caption {
+      bottom: 10px;
+    }
+  }
+
+  .tag, .caption {
+    z-index: 2;
+    position: absolute;
+  }
+
+  .tag {
+    top: 0;
+    left: 0;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  .caption {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    transition: bottom 0.2s;
+
+    h3 {
+      font-size: 18px;
+    }
+
+    .timestamp {
+      font-size: 12px;
+      opacity: 0.7;
+    }
+  }
+
+  &.half {
+
+    .caption {
+      h3 {
+        font-size: 15px;
+      }
+    }
+  }
+}

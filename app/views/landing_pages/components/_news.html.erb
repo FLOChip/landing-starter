@@ -1,0 +1,52 @@
+<div class="section news">
+  <div class="container text-center">
+    <h2>新闻动态</h2>
+    <div class="row my-5">
+      <div class="col-sm-6">
+        <%= link_to(root_path, class: "overlayed-box grid-item", style: "background-image: url(#{asset_path 'news-sample.png'})") do %>
+          <div class="tag">欧盟委员会官网</div>
+          <div class="caption">
+            <h3>欧盟为区块链技术推出“可行框架”，探索监管沙箱运作机制</h3>
+            <div class="timestamp">4月 3, 2018</div>
+          </div>
+        <% end %>
+      </div>
+      <div class="col-sm-3">
+        <%= link_to(root_path, class: "overlayed-box grid-item half", style: "background-image: url(#{asset_path 'news-sample.png'})") do %>
+          <div class="tag">欧盟委员会官网</div>
+          <div class="caption">
+            <h3>欧盟为区块链技术推出“可行框架”，探索监管沙箱运作机制</h3>
+            <div class="timestamp">4月 3, 2018</div>
+          </div>
+        <% end %>
+        <%= link_to(root_path, class: "overlayed-box grid-item half", style: "background-image: url(#{asset_path 'news-sample.png'})") do %>
+          <div class="tag">欧盟委员会官网</div>
+          <div class="caption">
+            <h3>欧盟为区块链技术推出“可行框架”，探索监管沙箱运作机制</h3>
+            <div class="timestamp">4月 3, 2018</div>
+          </div>
+        <% end %>
+      </div>
+      <div class="col-sm-3 text-left">
+        <h5>热门话题</h5>
+        <%= link_to(root_path, class: "mx-0 mt-3 text-sm btn-block") do %>
+          XRP Community Comes Together for Blockchain Week
+        <% end %>
+        <%= link_to(root_path, class: "mx-0 mt-3 text-sm btn-block") do %>
+          XRP Community Comes Together for Blockchain Week
+        <% end %>
+        <%= link_to(root_path, class: "mx-0 mt-3 text-sm btn-block") do %>
+          XRP Community Comes Together for Blockchain Week
+        <% end %>
+        <h5 class="mt-5">IGC 新闻订阅</h5>
+        <p class="text-sm text-muted">Sign up for our weekly industry updates, insider perspectives and in-depth market analysis.</p>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control text-sm" placeholder="<%= t 'forms.email' %>">
+          <div class="input-group-append">
+            <span class="input-group-text text-sm btn-primary"><%= t 'forms.subscribe' %></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

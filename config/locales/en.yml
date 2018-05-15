@@ -35,6 +35,9 @@ en:
   forms:
     email: "电邮地址"
     subscribe: "订阅"
+    name: "名字"
+    message: "您的信息"
+    submit: "提交"
 
   about:
     title: "打造无现金生态圈的专属数字加密货币"
@@ -49,3 +52,7 @@ Develop smart contracts and create wealth that can be shared"
     feature_3:
       title: "打造亚太区无现金社会生态圈"
       description: "One digital wallet is all you need to invest, trade and shop for anything in our marketplace."
+
+  contact:
+    title: "联系我们"
+    description: "任何疑问，请留下您的信息"

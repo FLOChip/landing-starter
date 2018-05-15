@@ -1,0 +1,22 @@
+<div class="section contact bg-gradient">
+  <div class="container text-center">
+    <h2 class="text-white"><%= t 'contact.title' %></h2>
+    <p class="text-light"><%= t 'contact.description' %></p>
+    <div class="form-holder my-5">
+      <form>
+        <div class="row mb-3">
+          <div class="col-sm-6">
+            <input class="form-control" type="text" placeholder="<%= t 'forms.name' %>" />
+          </div>
+          <div class="col-sm-6">
+            <input class="form-control" type="text" placeholder="<%= t 'forms.email' %>" />
+          </div>
+        </div>
+        <textarea class="form-control" placeholder="<%= t 'forms.message' %>"></textarea>
+        <div class="row justify-content-center my-3">
+          <div class="col-sm-6"><button class="btn btn-primary btn-lg btn-block"><%= t 'forms.submit' %></button></div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

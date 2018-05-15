@@ -30,6 +30,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  title: "IG World"
   tagline_html: "打造亚太区无现金社会<br/>世界新方向，投资大趋势"
 
   forms:

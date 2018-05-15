@@ -1,0 +1,14 @@
+.feature-row {
+
+  .img-col {
+    text-align: center;
+
+    img {
+      width: 100%;
+
+      &.md {
+        width: 70%;
+      }
+    }
+  }
+}
